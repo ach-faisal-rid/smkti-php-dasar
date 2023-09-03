@@ -46,5 +46,9 @@ echo "<hr>";
 // logika
 
 // operator ternary
+$nilai = 5;
+$predikat = $nilai > 8 ? 'sangat cukup' : 
+( $nilai >= 7 && $nilai <= 8 ? 'Baik' : ($nilai <= 6 && $nilai > 5 ? 'Sedang' : 'Kurang') );
+echo $predikat; // Sedang
 
 ?>
