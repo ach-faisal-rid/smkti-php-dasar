@@ -44,3 +44,7 @@ $c = !$a;
 printf("!%b = %b", $a, $c);
 echo "<hr>";
 // logika
+
+// operator ternary
+
+?>
